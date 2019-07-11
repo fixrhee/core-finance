@@ -1,0 +1,54 @@
+TOKEN WEBSERVICE MIDDLEWARE => VA
+	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhdXRoIiwiaXNzIjoiQmVsbGF0cml4IiwianRpIjoidXNlcm5hbWUifQ.SLpmtCcsgR2-1inC-b7P9GCClw181UWrJWKVYIDoMHQ
+
+TOKEN WEBSERVICE EQUINOX => Partner
+	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhdXRoIiwiaXNzIjoiQmVsbGF0cml4IiwianRpIjoiZXF1aW5veCJ9.5OvOlLI_Sx2GM0Il17YnpWI019ZkQVTp7XsH4qtVT7A
+
+TOKEN BATCH => Member
+	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhdXRoIiwiaXNzIjoiQmVsbGF0cml4IiwianRpIjoiYmF0Y2gifQ.zRryOqfjlnMhCJ-AKX9amRJcf_KUK8CpH6w2ckc-O4U
+
+TOKEN WEBSERVICE NON CREDENTIAL => Web Admin
+	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhdXRoIiwiaXNzIjoiQmVsbGF0cml4IiwianRpIjoid2ViYWRtaW5uYyJ9.uuOLk-dViF6bbdUESCpWA9x9KEVTOIJVfE3R8LqFaSY
+
+--------------------------------------------------------------------------------------------------------------------
+
+1. Username community 
+	10 digit
+	digit 1 : 2
+	digit tengah : bebas
+	digit terakhir : padding jadi 10
+
+2. tambahkan jumlah member pada list community
+
+3. create community tambahkan admin (member yang create community) ke dalam external member.
+
+4. email community bisa sama dengan email member	
+
+
+--------------------------------------------------------------------------------------------------------------------
+START PERCONA DB
+
+1. /var/lib/mysql
+2. Hapus mysql.sock.lock dan grastate.dat
+3. systemctl start mysql@bootstrap
+
+START MULE
+
+./mule -M-Dmule.env=staging start
+
+service mule-web start -M-Dmule.env=production
+
+--------------------------------------------------------------------------------------------------------------------
+NOTE:
+
+Update Web Admin di prod
+
+failover:tcp://192.168.27.26:61617
+
+--------------------------------------------------------------------------------------------------------------------
+WEB OPTIMA
+
+1. Login menggunakan re-captcha
+2. Topup Manual Agent
+	From: Rekening Sistem Optima
+	To: Rekening Deposit Agen
