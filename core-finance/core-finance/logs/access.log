@@ -1,0 +1,1024 @@
+2019-07-10 13:35:48,214 INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Creating Service {http://process.finance.core.doku.com/}AccessServiceImplService from class com.doku.core.finance.services.Access
+2019-07-10 13:35:48,239 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Access.changeCredential has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:48,245 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Access.createAccessType has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:48,246 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Access.createCredential has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:48,247 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Access.credentialStatus has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:48,249 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Access.getCredential has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:48,250 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Access.loadAccessType has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:48,251 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Access.resetCredential has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:48,252 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Access.unblockCredential has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:48,253 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Access.updateAccessType has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:48,254 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Access.validateCredential has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:48,693 INFO org.apache.cxf.endpoint.ServerImpl [main] Setting the server's publish address to be http://localhost:8081/core/finance/host/services/ws/access
+2019-07-10 13:35:48,801 INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Creating Service {http://process.finance.core.doku.com/}AccountServiceImplService from class com.doku.core.finance.services.Account
+2019-07-10 13:35:48,802 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.createAccount has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:48,803 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.createAccountPermission has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:48,804 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.createCurrency has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:48,805 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.deleteAccountPermission has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:48,806 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.loadAccountPermissionsByAccount has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:48,807 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.loadAccountPermissionsByID has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:48,809 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.loadAccounts has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:48,811 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.loadAccountsByGroups has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:48,812 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.loadAccountsByID has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:48,814 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.loadBalanceInquiry has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:48,817 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.loadCurrency has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:48,818 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.loadTransactionHistory has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:48,822 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.updateAccount has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:48,824 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.updateAccountPermission has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:48,825 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.updateCurrency has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:48,912 INFO org.apache.cxf.endpoint.ServerImpl [main] Setting the server's publish address to be http://localhost:8081/core/finance/host/services/ws/accounts
+2019-07-10 13:35:48,915 INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Creating Service {http://process.finance.core.doku.com/}GroupServiceImplService from class com.doku.core.finance.services.Group
+2019-07-10 13:35:48,916 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Group.createGroups has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:48,917 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Group.loadAllGroups has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:48,918 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Group.loadGroupsByID has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:48,935 INFO org.apache.cxf.endpoint.ServerImpl [main] Setting the server's publish address to be http://localhost:8081/core/finance/host/services/ws/groups
+2019-07-10 13:35:48,939 INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Creating Service {http://process.finance.core.doku.com/}MemberServiceImplService from class com.doku.core.finance.services.Member
+2019-07-10 13:35:48,940 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.confirmKYCRequest has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:48,941 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.loadAllMembers has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:48,943 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.loadKYCRequest has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:48,944 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.loadMembersByExternalID has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:48,945 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.loadMembersByGroupID has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:48,947 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.loadMembersByID has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:48,948 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.loadMembersByUsername has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:48,949 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.membersKYCRequest has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:48,950 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.registerExternalMembers has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:48,951 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.registerMembers has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:48,953 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.unregisterExternalMembers has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:48,954 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.updateMembers has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:49,003 INFO org.apache.cxf.endpoint.ServerImpl [main] Setting the server's publish address to be http://localhost:8081/core/finance/host/services/ws/members
+2019-07-10 13:35:49,008 INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Creating Service {http://process.finance.core.doku.com/}MenuServiceImplService from class com.doku.core.finance.services.Menu
+2019-07-10 13:35:49,010 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Menu.loadCategoryMenu has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:49,011 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Menu.loadChildMenu has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:49,012 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Menu.loadMenuByGroups has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:49,013 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Menu.loadParentMenu has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:49,015 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Menu.loadWelcomeMenu has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:49,045 INFO org.apache.cxf.endpoint.ServerImpl [main] Setting the server's publish address to be http://localhost:8081/core/finance/host/services/ws/menu
+2019-07-10 13:35:49,049 INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Creating Service {http://process.finance.core.doku.com/}MessageServiceImplService from class com.doku.core.finance.services.Message
+2019-07-10 13:35:49,051 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Message.countUnreadMessage has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:49,052 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Message.deleteMessage has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:49,053 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Message.flagMessageReadByID has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:49,054 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Message.loadMessageByID has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:49,055 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Message.loadMessageByUsername has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:49,057 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Message.sendMessage has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:49,071 INFO org.apache.cxf.endpoint.ServerImpl [main] Setting the server's publish address to be http://localhost:8081/core/finance/host/services/ws/message
+2019-07-10 13:35:49,076 INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Creating Service {http://process.finance.core.doku.com/}NotificationServiceImplService from class com.doku.core.finance.services.Notification
+2019-07-10 13:35:49,077 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Notification.createNotifications has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:49,078 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Notification.deleteNotifications has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:49,080 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Notification.editNotifications has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:49,081 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Notification.loadNotifications has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:49,091 INFO org.apache.cxf.endpoint.ServerImpl [main] Setting the server's publish address to be http://localhost:8081/core/finance/host/services/ws/notification
+2019-07-10 13:35:49,096 INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Creating Service {http://process.finance.core.doku.com/}TransferServiceImplService from class com.doku.core.finance.services.Transfer
+2019-07-10 13:35:49,098 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.confirmPayment has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:49,099 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.confirmPaymentTicket has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:49,100 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.createPaymentCustomFields has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:49,103 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.doInquiry has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:49,104 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.doPayment has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:49,105 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.generatePaymentTicket has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:49,106 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.loadPendingTransaction has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:49,107 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.requestPaymentConfirmation has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:49,109 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.requestPaymentInquiry has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:49,110 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.reversePayment has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:49,112 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.transactionStatus has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:49,113 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.validatePaymentTicket has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:49,169 INFO org.apache.cxf.endpoint.ServerImpl [main] Setting the server's publish address to be http://localhost:8081/core/finance/host/services/ws/transfer
+2019-07-10 13:35:49,173 INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Creating Service {http://process.finance.core.doku.com/}TransferTypeServiceImplService from class com.doku.core.finance.services.TransferType
+2019-07-10 13:35:49,174 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.createBrokers has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:49,175 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.createFeeByMember has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:49,176 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.createFees has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:49,177 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.createTransferTypeNotification has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:49,178 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.createTransferTypePermissions has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:49,179 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.createTransferTypes has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:49,180 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.deleteBrokers has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:49,181 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.deleteFeeByMember has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:49,181 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.deleteFees has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:49,182 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.deleteTransferTypeNotification has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:49,183 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.deleteTransferTypePermissions has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:49,184 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.editBrokers has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:49,185 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.loadBrokers has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:49,186 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.loadFeeByMember has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:49,187 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.loadFeesByID has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:49,188 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.loadFeesByTransferType has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:49,188 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.loadTransferTypeNotification has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:49,189 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.loadTransferTypePermissions has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:49,190 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.loadTransferTypes has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:49,191 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.loadTransferTypesByAccountID has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:49,191 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.loadTransferTypesByID has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:49,192 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.loadTransferTypesByUsername has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:49,194 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.updateFees has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:49,195 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.updateTransferTypeNotification has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:49,196 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.updateTransferTypes has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:49,258 INFO org.apache.cxf.endpoint.ServerImpl [main] Setting the server's publish address to be http://localhost:8081/core/finance/host/services/ws/transfertypes
+2019-07-10 13:35:49,263 INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Creating Service {http://process.finance.core.doku.com/}WebserviceImplService from class com.doku.core.finance.services.Webservice
+2019-07-10 13:35:49,265 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Webservice.addWebservicePermission has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:49,266 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Webservice.createWebservices has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:49,267 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Webservice.deleteWebservicePermission has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:49,269 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Webservice.deleteWebservices has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:49,270 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Webservice.loadWebservices has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:49,271 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Webservice.loadWebservicesByGroup has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:49,272 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Webservice.loadWebservicesPermission has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:49,272 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Webservice.updateWebservices has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:35:49,288 INFO org.apache.cxf.endpoint.ServerImpl [main] Setting the server's publish address to be http://localhost:8081/core/finance/host/services/ws/webservices
+2019-07-10 13:35:59,071 INFO org.apache.cxf.ext.logging.slf4j.Slf4jEventSender [qtp1506030945-71] REQ_IN
+    Address: http://localhost:8081/core/finance/host/services/ws/transfer
+    HttpMethod: POST
+    Content-Type: text/xml;charset=UTF-8
+    ExchangeId: 291e1c2f-5f22-4261-9249-df5df3121b2b
+    ServiceName: TransferServiceImplService
+    PortName: TransferServiceImplPort
+    PortTypeName: Transfer
+    Headers: {SOAPAction="doPayment", User-Agent=Apache-HttpClient/4.1.1 (java 1.5), connection=keep-alive, content-type=text/xml;charset=UTF-8, Host=localhost:8081, Content-Length=898, accept-encoding=gzip,deflate}
+    Payload: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://services.finance.core.doku.com/">
+   
+  <soapenv:Header>
+      
+    <ser:headerAuth>
+         <!--Optional:-->
+         
+      <token>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhdXRoIiwiaXNzIjoiQmVsbGF0cml4IiwianRpIjoibXdoMmgifQ.4c4NqFUu5B5bK96cps9M7g0jiPVsXKr7-p-oZvUpwBg</token>
+      
+    </ser:headerAuth>
+   
+  </soapenv:Header>
+   
+  <soapenv:Body>
+      
+    <ser:doPayment>
+         
+      <amount>100</amount>
+         <!--Optional:-->
+         
+      <description>Test P2P</description>
+         <!--Optional:-->
+         
+      <fromMember>08118503483</fromMember>
+         <!--Optional:-->
+         
+      <toMember>08561006175</toMember>
+         <!--Optional:-->
+         
+      <traceNumber>9871237999123</traceNumber>
+         <!--Optional:-->
+         
+      <transferTypeID>3</transferTypeID>
+      
+    </ser:doPayment>
+   
+  </soapenv:Body>
+
+</soapenv:Envelope>
+
+
+2019-07-10 13:35:59,663 INFO org.apache.cxf.ext.logging.slf4j.Slf4jEventSender [qtp1506030945-71] RESP_OUT
+    Content-Type: text/xml
+    ResponseCode: 200
+    ExchangeId: 291e1c2f-5f22-4261-9249-df5df3121b2b
+    ServiceName: TransferServiceImplService
+    PortName: TransferServiceImplPort
+    PortTypeName: Transfer
+    Headers: {}
+    Payload: <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ns2:headerAuth xmlns:ns2="http://services.finance.core.doku.com/">
+      <token>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhdXRoIiwiaXNzIjoiQmVsbGF0cml4IiwianRpIjoibXdoMmgifQ.4c4NqFUu5B5bK96cps9M7g0jiPVsXKr7-p-oZvUpwBg</token>
+    </ns2:headerAuth>
+  </soap:Header>
+  <soap:Body>
+    <ns2:doPaymentResponse xmlns:ns2="http://services.finance.core.doku.com/">
+      <status>
+        <description>Duplicate transaction entry</description>
+        <message>DUPLICATE_TRANSACTION</message>
+        <responseCode>P16</responseCode>
+      </status>
+    </ns2:doPaymentResponse>
+  </soap:Body>
+</soap:Envelope>
+
+
+2019-07-10 13:37:06,639 INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Creating Service {http://process.finance.core.doku.com/}AccessServiceImplService from class com.doku.core.finance.services.Access
+2019-07-10 13:37:06,665 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Access.changeCredential has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:06,672 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Access.createAccessType has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:06,673 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Access.createCredential has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:06,674 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Access.credentialStatus has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:06,676 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Access.getCredential has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:06,677 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Access.loadAccessType has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:06,679 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Access.resetCredential has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:06,680 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Access.unblockCredential has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:06,682 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Access.updateAccessType has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:06,684 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Access.validateCredential has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,280 INFO org.apache.cxf.endpoint.ServerImpl [main] Setting the server's publish address to be http://localhost:8081/core/finance/host/services/ws/access
+2019-07-10 13:37:07,424 INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Creating Service {http://process.finance.core.doku.com/}AccountServiceImplService from class com.doku.core.finance.services.Account
+2019-07-10 13:37:07,426 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.createAccount has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,427 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.createAccountPermission has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,428 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.createCurrency has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,430 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.deleteAccountPermission has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,431 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.loadAccountPermissionsByAccount has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,433 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.loadAccountPermissionsByID has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,434 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.loadAccounts has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,435 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.loadAccountsByGroups has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,437 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.loadAccountsByID has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,438 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.loadBalanceInquiry has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,439 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.loadCurrency has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,440 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.loadTransactionHistory has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,442 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.updateAccount has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,443 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.updateAccountPermission has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,446 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.updateCurrency has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,575 INFO org.apache.cxf.endpoint.ServerImpl [main] Setting the server's publish address to be http://localhost:8081/core/finance/host/services/ws/accounts
+2019-07-10 13:37:07,583 INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Creating Service {http://process.finance.core.doku.com/}GroupServiceImplService from class com.doku.core.finance.services.Group
+2019-07-10 13:37:07,585 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Group.createGroups has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,586 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Group.loadAllGroups has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,588 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Group.loadGroupsByID has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,614 INFO org.apache.cxf.endpoint.ServerImpl [main] Setting the server's publish address to be http://localhost:8081/core/finance/host/services/ws/groups
+2019-07-10 13:37:07,619 INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Creating Service {http://process.finance.core.doku.com/}MemberServiceImplService from class com.doku.core.finance.services.Member
+2019-07-10 13:37:07,620 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.confirmKYCRequest has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,622 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.loadAllMembers has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,623 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.loadKYCRequest has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,625 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.loadMembersByExternalID has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,627 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.loadMembersByGroupID has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,628 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.loadMembersByID has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,629 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.loadMembersByUsername has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,630 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.membersKYCRequest has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,631 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.registerExternalMembers has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,632 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.registerMembers has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,633 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.unregisterExternalMembers has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,634 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.updateMembers has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,689 INFO org.apache.cxf.endpoint.ServerImpl [main] Setting the server's publish address to be http://localhost:8081/core/finance/host/services/ws/members
+2019-07-10 13:37:07,694 INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Creating Service {http://process.finance.core.doku.com/}MenuServiceImplService from class com.doku.core.finance.services.Menu
+2019-07-10 13:37:07,695 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Menu.loadCategoryMenu has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,696 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Menu.loadChildMenu has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,698 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Menu.loadMenuByGroups has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,699 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Menu.loadParentMenu has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,700 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Menu.loadWelcomeMenu has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,731 INFO org.apache.cxf.endpoint.ServerImpl [main] Setting the server's publish address to be http://localhost:8081/core/finance/host/services/ws/menu
+2019-07-10 13:37:07,736 INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Creating Service {http://process.finance.core.doku.com/}MessageServiceImplService from class com.doku.core.finance.services.Message
+2019-07-10 13:37:07,737 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Message.countUnreadMessage has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,738 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Message.deleteMessage has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,740 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Message.flagMessageReadByID has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,741 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Message.loadMessageByID has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,742 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Message.loadMessageByUsername has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,743 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Message.sendMessage has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,759 INFO org.apache.cxf.endpoint.ServerImpl [main] Setting the server's publish address to be http://localhost:8081/core/finance/host/services/ws/message
+2019-07-10 13:37:07,764 INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Creating Service {http://process.finance.core.doku.com/}NotificationServiceImplService from class com.doku.core.finance.services.Notification
+2019-07-10 13:37:07,767 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Notification.createNotifications has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,769 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Notification.deleteNotifications has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,771 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Notification.editNotifications has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,772 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Notification.loadNotifications has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,787 INFO org.apache.cxf.endpoint.ServerImpl [main] Setting the server's publish address to be http://localhost:8081/core/finance/host/services/ws/notification
+2019-07-10 13:37:07,792 INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Creating Service {http://process.finance.core.doku.com/}TransferServiceImplService from class com.doku.core.finance.services.Transfer
+2019-07-10 13:37:07,794 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.confirmPayment has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,796 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.confirmPaymentTicket has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,797 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.createPaymentCustomFields has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,799 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.doInquiry has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,802 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.doPayment has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,803 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.generatePaymentTicket has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,804 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.loadPendingTransaction has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,805 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.requestPaymentConfirmation has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,806 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.requestPaymentInquiry has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,807 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.reversePayment has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,809 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.transactionStatus has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,809 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.validatePaymentTicket has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,863 INFO org.apache.cxf.endpoint.ServerImpl [main] Setting the server's publish address to be http://localhost:8081/core/finance/host/services/ws/transfer
+2019-07-10 13:37:07,875 INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Creating Service {http://process.finance.core.doku.com/}TransferTypeServiceImplService from class com.doku.core.finance.services.TransferType
+2019-07-10 13:37:07,876 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.createBrokers has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,877 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.createFeeByMember has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,878 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.createFees has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,879 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.createTransferTypeNotification has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,891 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.createTransferTypePermissions has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,892 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.createTransferTypes has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,894 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.deleteBrokers has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,895 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.deleteFeeByMember has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,895 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.deleteFees has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,903 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.deleteTransferTypeNotification has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,906 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.deleteTransferTypePermissions has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,907 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.editBrokers has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,909 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.loadBrokers has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,910 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.loadFeeByMember has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,912 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.loadFeesByID has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,919 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.loadFeesByTransferType has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,923 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.loadTransferTypeNotification has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,924 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.loadTransferTypePermissions has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,925 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.loadTransferTypes has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,927 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.loadTransferTypesByAccountID has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,928 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.loadTransferTypesByID has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,931 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.loadTransferTypesByUsername has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,933 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.updateFees has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,935 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.updateTransferTypeNotification has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:07,939 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.updateTransferTypes has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:08,044 INFO org.apache.cxf.endpoint.ServerImpl [main] Setting the server's publish address to be http://localhost:8081/core/finance/host/services/ws/transfertypes
+2019-07-10 13:37:08,053 INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Creating Service {http://process.finance.core.doku.com/}WebserviceImplService from class com.doku.core.finance.services.Webservice
+2019-07-10 13:37:08,055 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Webservice.addWebservicePermission has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:08,056 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Webservice.createWebservices has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:08,059 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Webservice.deleteWebservicePermission has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:08,060 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Webservice.deleteWebservices has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:08,063 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Webservice.loadWebservices has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:08,070 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Webservice.loadWebservicesByGroup has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:08,071 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Webservice.loadWebservicesPermission has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:08,072 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Webservice.updateWebservices has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:37:08,128 INFO org.apache.cxf.endpoint.ServerImpl [main] Setting the server's publish address to be http://localhost:8081/core/finance/host/services/ws/webservices
+2019-07-10 13:37:11,350 INFO org.apache.cxf.ext.logging.slf4j.Slf4jEventSender [qtp2126545173-71] REQ_IN
+    Address: http://localhost:8081/core/finance/host/services/ws/transfer
+    HttpMethod: POST
+    Content-Type: text/xml;charset=UTF-8
+    ExchangeId: bd9d2aa9-3341-4119-9079-014e31d98b1f
+    ServiceName: TransferServiceImplService
+    PortName: TransferServiceImplPort
+    PortTypeName: Transfer
+    Headers: {SOAPAction="doPayment", User-Agent=Apache-HttpClient/4.1.1 (java 1.5), connection=keep-alive, content-type=text/xml;charset=UTF-8, Host=localhost:8081, Content-Length=898, accept-encoding=gzip,deflate}
+    Payload: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://services.finance.core.doku.com/">
+   
+  <soapenv:Header>
+      
+    <ser:headerAuth>
+         <!--Optional:-->
+         
+      <token>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhdXRoIiwiaXNzIjoiQmVsbGF0cml4IiwianRpIjoibXdoMmgifQ.4c4NqFUu5B5bK96cps9M7g0jiPVsXKr7-p-oZvUpwBg</token>
+      
+    </ser:headerAuth>
+   
+  </soapenv:Header>
+   
+  <soapenv:Body>
+      
+    <ser:doPayment>
+         
+      <amount>100</amount>
+         <!--Optional:-->
+         
+      <description>Test P2P</description>
+         <!--Optional:-->
+         
+      <fromMember>08118503483</fromMember>
+         <!--Optional:-->
+         
+      <toMember>08561006175</toMember>
+         <!--Optional:-->
+         
+      <traceNumber>9871237999123</traceNumber>
+         <!--Optional:-->
+         
+      <transferTypeID>3</transferTypeID>
+      
+    </ser:doPayment>
+   
+  </soapenv:Body>
+
+</soapenv:Envelope>
+
+
+2019-07-10 13:37:11,791 INFO org.apache.cxf.ext.logging.slf4j.Slf4jEventSender [qtp2126545173-71] RESP_OUT
+    Content-Type: text/xml
+    ResponseCode: 200
+    ExchangeId: bd9d2aa9-3341-4119-9079-014e31d98b1f
+    ServiceName: TransferServiceImplService
+    PortName: TransferServiceImplPort
+    PortTypeName: Transfer
+    Headers: {}
+    Payload: <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ns2:headerAuth xmlns:ns2="http://services.finance.core.doku.com/">
+      <token>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhdXRoIiwiaXNzIjoiQmVsbGF0cml4IiwianRpIjoibXdoMmgifQ.4c4NqFUu5B5bK96cps9M7g0jiPVsXKr7-p-oZvUpwBg</token>
+    </ns2:headerAuth>
+  </soap:Header>
+  <soap:Body>
+    <ns2:doPaymentResponse xmlns:ns2="http://services.finance.core.doku.com/">
+      <status>
+        <description>Duplicate transaction entry</description>
+        <message>DUPLICATE_TRANSACTION</message>
+        <responseCode>P16</responseCode>
+      </status>
+    </ns2:doPaymentResponse>
+  </soap:Body>
+</soap:Envelope>
+
+
+2019-07-10 13:38:22,357 INFO org.apache.cxf.ext.logging.slf4j.Slf4jEventSender [qtp2126545173-66] REQ_IN
+    Address: http://localhost:8081/core/finance/host/services/ws/transfer
+    HttpMethod: POST
+    Content-Type: text/xml;charset=UTF-8
+    ExchangeId: b3e66a72-f747-4932-b737-d51f4e344f63
+    ServiceName: TransferServiceImplService
+    PortName: TransferServiceImplPort
+    PortTypeName: Transfer
+    Headers: {SOAPAction="doPayment", User-Agent=Apache-HttpClient/4.1.1 (java 1.5), connection=keep-alive, content-type=text/xml;charset=UTF-8, Host=localhost:8081, Content-Length=898, accept-encoding=gzip,deflate}
+    Payload: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://services.finance.core.doku.com/">
+   
+  <soapenv:Header>
+      
+    <ser:headerAuth>
+         <!--Optional:-->
+         
+      <token>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhdXRoIiwiaXNzIjoiQmVsbGF0cml4IiwianRpIjoibXdoMmgifQ.4c4NqFUu5B5bK96cps9M7g0jiPVsXKr7-p-oZvUpwBg</token>
+      
+    </ser:headerAuth>
+   
+  </soapenv:Header>
+   
+  <soapenv:Body>
+      
+    <ser:doPayment>
+         
+      <amount>100</amount>
+         <!--Optional:-->
+         
+      <description>Test P2P</description>
+         <!--Optional:-->
+         
+      <fromMember>08118503483</fromMember>
+         <!--Optional:-->
+         
+      <toMember>08561006175</toMember>
+         <!--Optional:-->
+         
+      <traceNumber>9871237999123</traceNumber>
+         <!--Optional:-->
+         
+      <transferTypeID>3</transferTypeID>
+      
+    </ser:doPayment>
+   
+  </soapenv:Body>
+
+</soapenv:Envelope>
+
+
+2019-07-10 13:38:22,389 INFO org.apache.cxf.ext.logging.slf4j.Slf4jEventSender [qtp2126545173-66] RESP_OUT
+    Content-Type: text/xml
+    ResponseCode: 200
+    ExchangeId: b3e66a72-f747-4932-b737-d51f4e344f63
+    ServiceName: TransferServiceImplService
+    PortName: TransferServiceImplPort
+    PortTypeName: Transfer
+    Headers: {}
+    Payload: <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ns2:headerAuth xmlns:ns2="http://services.finance.core.doku.com/">
+      <token>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhdXRoIiwiaXNzIjoiQmVsbGF0cml4IiwianRpIjoibXdoMmgifQ.4c4NqFUu5B5bK96cps9M7g0jiPVsXKr7-p-oZvUpwBg</token>
+    </ns2:headerAuth>
+  </soap:Header>
+  <soap:Body>
+    <ns2:doPaymentResponse xmlns:ns2="http://services.finance.core.doku.com/">
+      <status>
+        <description>Duplicate transaction entry</description>
+        <message>DUPLICATE_TRANSACTION</message>
+        <responseCode>P16</responseCode>
+      </status>
+    </ns2:doPaymentResponse>
+  </soap:Body>
+</soap:Envelope>
+
+
+2019-07-10 13:40:28,219 INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Creating Service {http://process.finance.core.doku.com/}AccessServiceImplService from class com.doku.core.finance.services.Access
+2019-07-10 13:40:28,261 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Access.changeCredential has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:28,268 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Access.createAccessType has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:28,272 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Access.createCredential has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:28,275 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Access.credentialStatus has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:28,277 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Access.getCredential has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:28,279 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Access.loadAccessType has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:28,281 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Access.resetCredential has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:28,284 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Access.unblockCredential has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:28,286 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Access.updateAccessType has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:28,287 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Access.validateCredential has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,052 INFO org.apache.cxf.endpoint.ServerImpl [main] Setting the server's publish address to be http://localhost:8081/core/finance/host/services/ws/access
+2019-07-10 13:40:29,275 INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Creating Service {http://process.finance.core.doku.com/}AccountServiceImplService from class com.doku.core.finance.services.Account
+2019-07-10 13:40:29,284 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.createAccount has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,286 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.createAccountPermission has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,288 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.createCurrency has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,290 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.deleteAccountPermission has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,293 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.loadAccountPermissionsByAccount has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,297 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.loadAccountPermissionsByID has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,298 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.loadAccounts has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,300 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.loadAccountsByGroups has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,304 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.loadAccountsByID has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,306 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.loadBalanceInquiry has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,308 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.loadCurrency has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,309 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.loadTransactionHistory has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,311 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.updateAccount has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,313 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.updateAccountPermission has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,315 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.updateCurrency has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,427 INFO org.apache.cxf.endpoint.ServerImpl [main] Setting the server's publish address to be http://localhost:8081/core/finance/host/services/ws/accounts
+2019-07-10 13:40:29,433 INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Creating Service {http://process.finance.core.doku.com/}GroupServiceImplService from class com.doku.core.finance.services.Group
+2019-07-10 13:40:29,435 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Group.createGroups has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,437 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Group.loadAllGroups has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,438 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Group.loadGroupsByID has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,466 INFO org.apache.cxf.endpoint.ServerImpl [main] Setting the server's publish address to be http://localhost:8081/core/finance/host/services/ws/groups
+2019-07-10 13:40:29,475 INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Creating Service {http://process.finance.core.doku.com/}MemberServiceImplService from class com.doku.core.finance.services.Member
+2019-07-10 13:40:29,481 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.confirmKYCRequest has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,483 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.loadAllMembers has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,485 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.loadKYCRequest has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,489 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.loadMembersByExternalID has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,491 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.loadMembersByGroupID has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,493 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.loadMembersByID has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,495 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.loadMembersByUsername has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,505 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.membersKYCRequest has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,507 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.registerExternalMembers has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,509 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.registerMembers has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,511 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.unregisterExternalMembers has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,514 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.updateMembers has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,586 INFO org.apache.cxf.endpoint.ServerImpl [main] Setting the server's publish address to be http://localhost:8081/core/finance/host/services/ws/members
+2019-07-10 13:40:29,595 INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Creating Service {http://process.finance.core.doku.com/}MenuServiceImplService from class com.doku.core.finance.services.Menu
+2019-07-10 13:40:29,597 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Menu.loadCategoryMenu has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,598 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Menu.loadChildMenu has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,599 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Menu.loadMenuByGroups has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,605 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Menu.loadParentMenu has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,607 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Menu.loadWelcomeMenu has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,641 INFO org.apache.cxf.endpoint.ServerImpl [main] Setting the server's publish address to be http://localhost:8081/core/finance/host/services/ws/menu
+2019-07-10 13:40:29,647 INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Creating Service {http://process.finance.core.doku.com/}MessageServiceImplService from class com.doku.core.finance.services.Message
+2019-07-10 13:40:29,652 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Message.countUnreadMessage has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,656 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Message.deleteMessage has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,662 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Message.flagMessageReadByID has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,665 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Message.loadMessageByID has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,667 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Message.loadMessageByUsername has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,672 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Message.sendMessage has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,700 INFO org.apache.cxf.endpoint.ServerImpl [main] Setting the server's publish address to be http://localhost:8081/core/finance/host/services/ws/message
+2019-07-10 13:40:29,707 INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Creating Service {http://process.finance.core.doku.com/}NotificationServiceImplService from class com.doku.core.finance.services.Notification
+2019-07-10 13:40:29,708 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Notification.createNotifications has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,710 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Notification.deleteNotifications has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,712 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Notification.editNotifications has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,714 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Notification.loadNotifications has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,734 INFO org.apache.cxf.endpoint.ServerImpl [main] Setting the server's publish address to be http://localhost:8081/core/finance/host/services/ws/notification
+2019-07-10 13:40:29,742 INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Creating Service {http://process.finance.core.doku.com/}TransferServiceImplService from class com.doku.core.finance.services.Transfer
+2019-07-10 13:40:29,744 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.confirmPayment has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,746 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.confirmPaymentTicket has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,748 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.createPaymentCustomFields has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,750 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.doInquiry has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,752 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.doPayment has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,754 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.generatePaymentTicket has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,756 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.loadPendingTransaction has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,758 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.requestPaymentConfirmation has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,760 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.requestPaymentInquiry has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,762 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.reversePayment has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,764 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.transactionStatus has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,765 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.validatePaymentTicket has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,844 INFO org.apache.cxf.endpoint.ServerImpl [main] Setting the server's publish address to be http://localhost:8081/core/finance/host/services/ws/transfer
+2019-07-10 13:40:29,852 INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Creating Service {http://process.finance.core.doku.com/}TransferTypeServiceImplService from class com.doku.core.finance.services.TransferType
+2019-07-10 13:40:29,854 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.createBrokers has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,855 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.createFeeByMember has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,857 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.createFees has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,859 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.createTransferTypeNotification has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,861 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.createTransferTypePermissions has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,863 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.createTransferTypes has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,865 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.deleteBrokers has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,866 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.deleteFeeByMember has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,868 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.deleteFees has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,870 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.deleteTransferTypeNotification has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,872 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.deleteTransferTypePermissions has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,874 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.editBrokers has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,876 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.loadBrokers has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,877 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.loadFeeByMember has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,879 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.loadFeesByID has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,881 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.loadFeesByTransferType has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,883 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.loadTransferTypeNotification has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,885 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.loadTransferTypePermissions has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,887 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.loadTransferTypes has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,888 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.loadTransferTypesByAccountID has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,890 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.loadTransferTypesByID has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,891 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.loadTransferTypesByUsername has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,893 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.updateFees has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,894 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.updateTransferTypeNotification has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,896 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.updateTransferTypes has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,988 INFO org.apache.cxf.endpoint.ServerImpl [main] Setting the server's publish address to be http://localhost:8081/core/finance/host/services/ws/transfertypes
+2019-07-10 13:40:29,995 INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Creating Service {http://process.finance.core.doku.com/}WebserviceImplService from class com.doku.core.finance.services.Webservice
+2019-07-10 13:40:29,997 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Webservice.addWebservicePermission has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:29,999 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Webservice.createWebservices has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:30,001 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Webservice.deleteWebservicePermission has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:30,003 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Webservice.deleteWebservices has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:30,005 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Webservice.loadWebservices has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:30,007 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Webservice.loadWebservicesByGroup has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:30,009 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Webservice.loadWebservicesPermission has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:30,011 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Webservice.updateWebservices has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:30,031 INFO org.apache.cxf.endpoint.ServerImpl [main] Setting the server's publish address to be http://localhost:8081/core/finance/host/services/ws/webservices
+2019-07-10 13:40:48,097 INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Creating Service {http://process.finance.core.doku.com/}AccessServiceImplService from class com.doku.core.finance.services.Access
+2019-07-10 13:40:48,132 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Access.changeCredential has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:48,138 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Access.createAccessType has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:48,140 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Access.createCredential has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:48,142 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Access.credentialStatus has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:48,143 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Access.getCredential has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:48,145 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Access.loadAccessType has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:48,146 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Access.resetCredential has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:48,148 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Access.unblockCredential has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:48,149 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Access.updateAccessType has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:48,150 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Access.validateCredential has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:48,913 INFO org.apache.cxf.endpoint.ServerImpl [main] Setting the server's publish address to be http://localhost:8081/core/finance/host/services/ws/access
+2019-07-10 13:40:49,099 INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Creating Service {http://process.finance.core.doku.com/}AccountServiceImplService from class com.doku.core.finance.services.Account
+2019-07-10 13:40:49,102 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.createAccount has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,104 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.createAccountPermission has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,108 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.createCurrency has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,110 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.deleteAccountPermission has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,111 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.loadAccountPermissionsByAccount has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,113 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.loadAccountPermissionsByID has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,115 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.loadAccounts has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,122 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.loadAccountsByGroups has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,124 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.loadAccountsByID has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,126 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.loadBalanceInquiry has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,128 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.loadCurrency has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,130 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.loadTransactionHistory has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,131 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.updateAccount has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,133 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.updateAccountPermission has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,135 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.updateCurrency has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,239 INFO org.apache.cxf.endpoint.ServerImpl [main] Setting the server's publish address to be http://localhost:8081/core/finance/host/services/ws/accounts
+2019-07-10 13:40:49,247 INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Creating Service {http://process.finance.core.doku.com/}GroupServiceImplService from class com.doku.core.finance.services.Group
+2019-07-10 13:40:49,249 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Group.createGroups has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,250 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Group.loadAllGroups has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,253 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Group.loadGroupsByID has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,278 INFO org.apache.cxf.endpoint.ServerImpl [main] Setting the server's publish address to be http://localhost:8081/core/finance/host/services/ws/groups
+2019-07-10 13:40:49,284 INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Creating Service {http://process.finance.core.doku.com/}MemberServiceImplService from class com.doku.core.finance.services.Member
+2019-07-10 13:40:49,286 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.confirmKYCRequest has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,288 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.loadAllMembers has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,290 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.loadKYCRequest has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,291 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.loadMembersByExternalID has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,293 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.loadMembersByGroupID has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,294 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.loadMembersByID has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,296 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.loadMembersByUsername has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,297 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.membersKYCRequest has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,299 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.registerExternalMembers has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,300 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.registerMembers has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,302 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.unregisterExternalMembers has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,304 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.updateMembers has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,365 INFO org.apache.cxf.endpoint.ServerImpl [main] Setting the server's publish address to be http://localhost:8081/core/finance/host/services/ws/members
+2019-07-10 13:40:49,373 INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Creating Service {http://process.finance.core.doku.com/}MenuServiceImplService from class com.doku.core.finance.services.Menu
+2019-07-10 13:40:49,375 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Menu.loadCategoryMenu has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,377 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Menu.loadChildMenu has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,379 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Menu.loadMenuByGroups has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,380 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Menu.loadParentMenu has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,382 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Menu.loadWelcomeMenu has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,426 INFO org.apache.cxf.endpoint.ServerImpl [main] Setting the server's publish address to be http://localhost:8081/core/finance/host/services/ws/menu
+2019-07-10 13:40:49,431 INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Creating Service {http://process.finance.core.doku.com/}MessageServiceImplService from class com.doku.core.finance.services.Message
+2019-07-10 13:40:49,433 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Message.countUnreadMessage has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,434 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Message.deleteMessage has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,435 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Message.flagMessageReadByID has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,438 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Message.loadMessageByID has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,439 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Message.loadMessageByUsername has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,441 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Message.sendMessage has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,468 INFO org.apache.cxf.endpoint.ServerImpl [main] Setting the server's publish address to be http://localhost:8081/core/finance/host/services/ws/message
+2019-07-10 13:40:49,476 INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Creating Service {http://process.finance.core.doku.com/}NotificationServiceImplService from class com.doku.core.finance.services.Notification
+2019-07-10 13:40:49,480 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Notification.createNotifications has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,481 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Notification.deleteNotifications has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,483 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Notification.editNotifications has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,485 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Notification.loadNotifications has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,500 INFO org.apache.cxf.endpoint.ServerImpl [main] Setting the server's publish address to be http://localhost:8081/core/finance/host/services/ws/notification
+2019-07-10 13:40:49,506 INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Creating Service {http://process.finance.core.doku.com/}TransferServiceImplService from class com.doku.core.finance.services.Transfer
+2019-07-10 13:40:49,508 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.confirmPayment has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,509 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.confirmPaymentTicket has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,511 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.createPaymentCustomFields has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,515 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.doInquiry has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,517 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.doPayment has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,518 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.generatePaymentTicket has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,519 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.loadPendingTransaction has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,521 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.requestPaymentConfirmation has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,522 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.requestPaymentInquiry has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,524 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.reversePayment has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,525 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.transactionStatus has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,530 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.validatePaymentTicket has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,600 INFO org.apache.cxf.endpoint.ServerImpl [main] Setting the server's publish address to be http://localhost:8081/core/finance/host/services/ws/transfer
+2019-07-10 13:40:49,609 INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Creating Service {http://process.finance.core.doku.com/}TransferTypeServiceImplService from class com.doku.core.finance.services.TransferType
+2019-07-10 13:40:49,611 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.createBrokers has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,614 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.createFeeByMember has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,616 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.createFees has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,617 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.createTransferTypeNotification has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,619 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.createTransferTypePermissions has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,620 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.createTransferTypes has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,622 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.deleteBrokers has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,624 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.deleteFeeByMember has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,625 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.deleteFees has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,627 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.deleteTransferTypeNotification has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,628 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.deleteTransferTypePermissions has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,630 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.editBrokers has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,632 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.loadBrokers has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,633 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.loadFeeByMember has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,635 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.loadFeesByID has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,636 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.loadFeesByTransferType has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,638 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.loadTransferTypeNotification has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,639 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.loadTransferTypePermissions has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,640 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.loadTransferTypes has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,641 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.loadTransferTypesByAccountID has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,643 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.loadTransferTypesByID has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,644 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.loadTransferTypesByUsername has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,646 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.updateFees has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,648 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.updateTransferTypeNotification has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,655 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.updateTransferTypes has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,750 INFO org.apache.cxf.endpoint.ServerImpl [main] Setting the server's publish address to be http://localhost:8081/core/finance/host/services/ws/transfertypes
+2019-07-10 13:40:49,757 INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Creating Service {http://process.finance.core.doku.com/}WebserviceImplService from class com.doku.core.finance.services.Webservice
+2019-07-10 13:40:49,758 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Webservice.addWebservicePermission has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,760 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Webservice.createWebservices has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,761 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Webservice.deleteWebservicePermission has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,763 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Webservice.deleteWebservices has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,764 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Webservice.loadWebservices has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,766 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Webservice.loadWebservicesByGroup has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,767 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Webservice.loadWebservicesPermission has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,768 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Webservice.updateWebservices has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:40:49,800 INFO org.apache.cxf.endpoint.ServerImpl [main] Setting the server's publish address to be http://localhost:8081/core/finance/host/services/ws/webservices
+2019-07-10 13:40:57,100 INFO org.apache.cxf.ext.logging.slf4j.Slf4jEventSender [qtp201576232-66] REQ_IN
+    Address: http://localhost:8081/core/finance/host/services/ws/transfer
+    HttpMethod: POST
+    Content-Type: text/xml;charset=UTF-8
+    ExchangeId: f1ff7ebb-2422-434d-8ea5-4d7461bda635
+    ServiceName: TransferServiceImplService
+    PortName: TransferServiceImplPort
+    PortTypeName: Transfer
+    Headers: {SOAPAction="doPayment", User-Agent=Apache-HttpClient/4.1.1 (java 1.5), connection=keep-alive, content-type=text/xml;charset=UTF-8, Host=localhost:8081, Content-Length=898, accept-encoding=gzip,deflate}
+    Payload: <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://services.finance.core.doku.com/">
+   
+  <soapenv:Header>
+      
+    <ser:headerAuth>
+         <!--Optional:-->
+         
+      <token>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhdXRoIiwiaXNzIjoiQmVsbGF0cml4IiwianRpIjoibXdoMmgifQ.4c4NqFUu5B5bK96cps9M7g0jiPVsXKr7-p-oZvUpwBg</token>
+      
+    </ser:headerAuth>
+   
+  </soapenv:Header>
+   
+  <soapenv:Body>
+      
+    <ser:doPayment>
+         
+      <amount>100</amount>
+         <!--Optional:-->
+         
+      <description>Test P2P</description>
+         <!--Optional:-->
+         
+      <fromMember>08118503483</fromMember>
+         <!--Optional:-->
+         
+      <toMember>08561006175</toMember>
+         <!--Optional:-->
+         
+      <traceNumber>9871237999123</traceNumber>
+         <!--Optional:-->
+         
+      <transferTypeID>3</transferTypeID>
+      
+    </ser:doPayment>
+   
+  </soapenv:Body>
+
+</soapenv:Envelope>
+
+
+2019-07-10 13:40:58,207 INFO org.apache.cxf.ext.logging.slf4j.Slf4jEventSender [qtp201576232-66] RESP_OUT
+    Content-Type: text/xml
+    ResponseCode: 200
+    ExchangeId: f1ff7ebb-2422-434d-8ea5-4d7461bda635
+    ServiceName: TransferServiceImplService
+    PortName: TransferServiceImplPort
+    PortTypeName: Transfer
+    Headers: {}
+    Payload: <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ns2:headerAuth xmlns:ns2="http://services.finance.core.doku.com/">
+      <token>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhdXRoIiwiaXNzIjoiQmVsbGF0cml4IiwianRpIjoibXdoMmgifQ.4c4NqFUu5B5bK96cps9M7g0jiPVsXKr7-p-oZvUpwBg</token>
+    </ns2:headerAuth>
+  </soap:Header>
+  <soap:Body>
+    <ns2:doPaymentResponse xmlns:ns2="http://services.finance.core.doku.com/">
+      <status>
+        <description>Duplicate transaction entry</description>
+        <message>DUPLICATE_TRANSACTION</message>
+        <responseCode>P16</responseCode>
+      </status>
+    </ns2:doPaymentResponse>
+  </soap:Body>
+</soap:Envelope>
+
+
+2019-07-10 13:56:06,632 INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Creating Service {http://process.finance.core.doku.com/}AccessServiceImplService from class com.doku.core.finance.services.Access
+2019-07-10 13:56:06,737 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Access.changeCredential has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:06,765 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Access.createAccessType has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:06,768 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Access.createCredential has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:06,779 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Access.credentialStatus has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:06,781 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Access.getCredential has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:06,785 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Access.loadAccessType has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:06,794 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Access.resetCredential has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:06,797 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Access.unblockCredential has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:06,799 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Access.updateAccessType has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:06,801 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Access.validateCredential has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:08,386 INFO org.apache.cxf.endpoint.ServerImpl [main] Setting the server's publish address to be http://localhost:8081/core/finance/host/services/ws/access
+2019-07-10 13:56:08,903 INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Creating Service {http://process.finance.core.doku.com/}AccountServiceImplService from class com.doku.core.finance.services.Account
+2019-07-10 13:56:08,940 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.createAccount has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:08,942 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.createAccountPermission has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:08,944 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.createCurrency has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:08,947 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.deleteAccountPermission has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:08,949 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.loadAccountPermissionsByAccount has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:08,957 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.loadAccountPermissionsByID has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:08,964 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.loadAccounts has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:08,966 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.loadAccountsByGroups has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:08,968 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.loadAccountsByID has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:08,972 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.loadBalanceInquiry has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:08,976 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.loadCurrency has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:08,979 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.loadTransactionHistory has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:08,980 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.updateAccount has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:08,982 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.updateAccountPermission has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:08,983 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.updateCurrency has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:09,194 INFO org.apache.cxf.endpoint.ServerImpl [main] Setting the server's publish address to be http://localhost:8081/core/finance/host/services/ws/accounts
+2019-07-10 13:56:09,200 INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Creating Service {http://process.finance.core.doku.com/}GroupServiceImplService from class com.doku.core.finance.services.Group
+2019-07-10 13:56:09,202 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Group.createGroups has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:09,209 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Group.loadAllGroups has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:09,214 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Group.loadGroupsByID has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:09,255 INFO org.apache.cxf.endpoint.ServerImpl [main] Setting the server's publish address to be http://localhost:8081/core/finance/host/services/ws/groups
+2019-07-10 13:56:09,264 INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Creating Service {http://process.finance.core.doku.com/}MemberServiceImplService from class com.doku.core.finance.services.Member
+2019-07-10 13:56:09,266 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.confirmKYCRequest has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:09,267 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.loadAllMembers has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:09,269 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.loadKYCRequest has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:09,274 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.loadMembersByExternalID has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:09,277 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.loadMembersByGroupID has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:09,279 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.loadMembersByID has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:09,280 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.loadMembersByUsername has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:09,282 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.membersKYCRequest has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:09,284 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.registerExternalMembers has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:09,332 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.registerMembers has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:09,347 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.unregisterExternalMembers has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:09,348 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.updateMembers has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:09,456 INFO org.apache.cxf.endpoint.ServerImpl [main] Setting the server's publish address to be http://localhost:8081/core/finance/host/services/ws/members
+2019-07-10 13:56:09,485 INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Creating Service {http://process.finance.core.doku.com/}MenuServiceImplService from class com.doku.core.finance.services.Menu
+2019-07-10 13:56:09,487 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Menu.loadCategoryMenu has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:09,489 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Menu.loadChildMenu has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:09,491 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Menu.loadMenuByGroups has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:09,494 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Menu.loadParentMenu has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:09,495 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Menu.loadWelcomeMenu has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:09,619 INFO org.apache.cxf.endpoint.ServerImpl [main] Setting the server's publish address to be http://localhost:8081/core/finance/host/services/ws/menu
+2019-07-10 13:56:09,639 INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Creating Service {http://process.finance.core.doku.com/}MessageServiceImplService from class com.doku.core.finance.services.Message
+2019-07-10 13:56:09,641 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Message.countUnreadMessage has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:09,643 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Message.deleteMessage has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:09,648 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Message.flagMessageReadByID has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:09,650 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Message.loadMessageByID has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:09,653 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Message.loadMessageByUsername has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:09,654 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Message.sendMessage has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:09,753 INFO org.apache.cxf.endpoint.ServerImpl [main] Setting the server's publish address to be http://localhost:8081/core/finance/host/services/ws/message
+2019-07-10 13:56:09,767 INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Creating Service {http://process.finance.core.doku.com/}NotificationServiceImplService from class com.doku.core.finance.services.Notification
+2019-07-10 13:56:09,768 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Notification.createNotifications has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:09,770 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Notification.deleteNotifications has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:09,772 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Notification.editNotifications has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:09,774 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Notification.loadNotifications has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:09,811 INFO org.apache.cxf.endpoint.ServerImpl [main] Setting the server's publish address to be http://localhost:8081/core/finance/host/services/ws/notifications
+2019-07-10 13:56:09,832 INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Creating Service {http://process.finance.core.doku.com/}TransferServiceImplService from class com.doku.core.finance.services.Transfer
+2019-07-10 13:56:09,837 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.confirmPayment has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:09,840 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.confirmPaymentTicket has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:09,842 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.createPaymentCustomFields has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:09,845 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.doInquiry has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:09,847 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.doPayment has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:09,852 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.generatePaymentTicket has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:09,854 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.loadPendingTransaction has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:09,855 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.requestPaymentConfirmation has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:09,858 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.requestPaymentInquiry has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:09,869 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.reversePayment has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:09,871 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.transactionStatus has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:09,872 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.validatePaymentTicket has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:10,011 INFO org.apache.cxf.endpoint.ServerImpl [main] Setting the server's publish address to be http://localhost:8081/core/finance/host/services/ws/transfers
+2019-07-10 13:56:10,017 INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Creating Service {http://process.finance.core.doku.com/}TransferTypeServiceImplService from class com.doku.core.finance.services.TransferType
+2019-07-10 13:56:10,019 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.createBrokers has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:10,022 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.createFeeByMember has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:10,024 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.createFees has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:10,026 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.createTransferTypeNotification has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:10,028 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.createTransferTypePermissions has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:10,030 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.createTransferTypes has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:10,031 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.deleteBrokers has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:10,033 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.deleteFeeByMember has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:10,062 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.deleteFees has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:10,064 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.deleteTransferTypeNotification has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:10,066 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.deleteTransferTypePermissions has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:10,069 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.editBrokers has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:10,073 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.loadBrokers has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:10,076 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.loadFeeByMember has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:10,084 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.loadFeesByID has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:10,085 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.loadFeesByTransferType has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:10,087 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.loadTransferTypeNotification has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:10,088 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.loadTransferTypePermissions has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:10,090 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.loadTransferTypes has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:10,091 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.loadTransferTypesByAccountID has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:10,093 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.loadTransferTypesByID has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:10,105 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.loadTransferTypesByUsername has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:10,107 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.updateFees has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:10,109 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.updateTransferTypeNotification has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:10,111 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.updateTransferTypes has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:10,279 INFO org.apache.cxf.endpoint.ServerImpl [main] Setting the server's publish address to be http://localhost:8081/core/finance/host/services/ws/transfertypes
+2019-07-10 13:56:10,300 INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Creating Service {http://process.finance.core.doku.com/}WebserviceImplService from class com.doku.core.finance.services.Webservice
+2019-07-10 13:56:10,302 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Webservice.addWebservicePermission has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:10,305 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Webservice.createWebservices has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:10,328 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Webservice.deleteWebservicePermission has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:10,329 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Webservice.deleteWebservices has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:10,331 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Webservice.loadWebservices has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:10,342 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Webservice.loadWebservicesByGroup has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:10,346 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Webservice.loadWebservicesPermission has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:10,347 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Webservice.updateWebservices has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:10,378 INFO org.apache.cxf.endpoint.ServerImpl [main] Setting the server's publish address to be http://localhost:8081/core/finance/host/services/ws/webservices
+2019-07-10 13:56:27,579 INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Creating Service {http://process.finance.core.doku.com/}AccessServiceImplService from class com.doku.core.finance.services.Access
+2019-07-10 13:56:27,631 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Access.changeCredential has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:27,640 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Access.createAccessType has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:27,643 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Access.createCredential has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:27,644 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Access.credentialStatus has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:27,647 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Access.getCredential has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:27,654 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Access.loadAccessType has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:27,655 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Access.resetCredential has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:27,657 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Access.unblockCredential has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:27,658 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Access.updateAccessType has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:27,660 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Access.validateCredential has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:28,573 INFO org.apache.cxf.endpoint.ServerImpl [main] Setting the server's publish address to be http://localhost:8081/core/finance/host/services/ws/access
+2019-07-10 13:56:28,796 INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Creating Service {http://process.finance.core.doku.com/}AccountServiceImplService from class com.doku.core.finance.services.Account
+2019-07-10 13:56:28,801 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.createAccount has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:28,803 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.createAccountPermission has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:28,811 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.createCurrency has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:28,813 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.deleteAccountPermission has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:28,815 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.loadAccountPermissionsByAccount has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:28,817 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.loadAccountPermissionsByID has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:28,818 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.loadAccounts has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:28,821 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.loadAccountsByGroups has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:28,822 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.loadAccountsByID has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:28,824 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.loadBalanceInquiry has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:28,825 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.loadCurrency has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:28,831 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.loadTransactionHistory has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:28,834 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.updateAccount has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:28,840 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.updateAccountPermission has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:28,842 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Account.updateCurrency has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:28,984 INFO org.apache.cxf.endpoint.ServerImpl [main] Setting the server's publish address to be http://localhost:8081/core/finance/host/services/ws/accounts
+2019-07-10 13:56:28,991 INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Creating Service {http://process.finance.core.doku.com/}GroupServiceImplService from class com.doku.core.finance.services.Group
+2019-07-10 13:56:28,999 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Group.createGroups has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,001 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Group.loadAllGroups has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,004 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Group.loadGroupsByID has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,037 INFO org.apache.cxf.endpoint.ServerImpl [main] Setting the server's publish address to be http://localhost:8081/core/finance/host/services/ws/groups
+2019-07-10 13:56:29,042 INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Creating Service {http://process.finance.core.doku.com/}MemberServiceImplService from class com.doku.core.finance.services.Member
+2019-07-10 13:56:29,044 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.confirmKYCRequest has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,046 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.loadAllMembers has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,053 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.loadKYCRequest has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,055 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.loadMembersByExternalID has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,056 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.loadMembersByGroupID has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,057 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.loadMembersByID has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,058 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.loadMembersByUsername has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,060 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.membersKYCRequest has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,061 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.registerExternalMembers has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,064 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.registerMembers has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,066 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.unregisterExternalMembers has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,067 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Member.updateMembers has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,156 INFO org.apache.cxf.endpoint.ServerImpl [main] Setting the server's publish address to be http://localhost:8081/core/finance/host/services/ws/members
+2019-07-10 13:56:29,168 INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Creating Service {http://process.finance.core.doku.com/}MenuServiceImplService from class com.doku.core.finance.services.Menu
+2019-07-10 13:56:29,169 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Menu.loadCategoryMenu has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,171 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Menu.loadChildMenu has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,172 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Menu.loadMenuByGroups has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,173 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Menu.loadParentMenu has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,175 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Menu.loadWelcomeMenu has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,224 INFO org.apache.cxf.endpoint.ServerImpl [main] Setting the server's publish address to be http://localhost:8081/core/finance/host/services/ws/menu
+2019-07-10 13:56:29,232 INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Creating Service {http://process.finance.core.doku.com/}MessageServiceImplService from class com.doku.core.finance.services.Message
+2019-07-10 13:56:29,234 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Message.countUnreadMessage has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,236 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Message.deleteMessage has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,238 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Message.flagMessageReadByID has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,240 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Message.loadMessageByID has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,242 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Message.loadMessageByUsername has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,244 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Message.sendMessage has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,271 INFO org.apache.cxf.endpoint.ServerImpl [main] Setting the server's publish address to be http://localhost:8081/core/finance/host/services/ws/message
+2019-07-10 13:56:29,280 INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Creating Service {http://process.finance.core.doku.com/}NotificationServiceImplService from class com.doku.core.finance.services.Notification
+2019-07-10 13:56:29,283 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Notification.createNotifications has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,284 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Notification.deleteNotifications has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,286 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Notification.editNotifications has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,287 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Notification.loadNotifications has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,309 INFO org.apache.cxf.endpoint.ServerImpl [main] Setting the server's publish address to be http://localhost:8081/core/finance/host/services/ws/notifications
+2019-07-10 13:56:29,319 INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Creating Service {http://process.finance.core.doku.com/}TransferServiceImplService from class com.doku.core.finance.services.Transfer
+2019-07-10 13:56:29,321 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.confirmPayment has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,323 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.confirmPaymentTicket has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,324 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.createPaymentCustomFields has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,325 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.doInquiry has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,328 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.doPayment has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,330 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.generatePaymentTicket has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,331 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.loadPendingTransaction has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,332 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.requestPaymentConfirmation has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,333 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.requestPaymentInquiry has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,335 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.reversePayment has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,337 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.transactionStatus has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,338 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Transfer.validatePaymentTicket has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,411 INFO org.apache.cxf.endpoint.ServerImpl [main] Setting the server's publish address to be http://localhost:8081/core/finance/host/services/ws/transfers
+2019-07-10 13:56:29,417 INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Creating Service {http://process.finance.core.doku.com/}TransferTypeServiceImplService from class com.doku.core.finance.services.TransferType
+2019-07-10 13:56:29,418 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.createBrokers has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,420 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.createFeeByMember has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,421 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.createFees has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,423 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.createTransferTypeNotification has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,424 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.createTransferTypePermissions has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,425 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.createTransferTypes has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,427 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.deleteBrokers has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,428 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.deleteFeeByMember has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,429 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.deleteFees has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,431 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.deleteTransferTypeNotification has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,432 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.deleteTransferTypePermissions has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,434 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.editBrokers has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,435 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.loadBrokers has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,437 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.loadFeeByMember has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,439 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.loadFeesByID has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,441 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.loadFeesByTransferType has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,442 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.loadTransferTypeNotification has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,443 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.loadTransferTypePermissions has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,445 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.loadTransferTypes has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,447 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.loadTransferTypesByAccountID has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,448 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.loadTransferTypesByID has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,449 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.loadTransferTypesByUsername has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,451 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.updateFees has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,452 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.updateTransferTypeNotification has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,454 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.TransferType.updateTransferTypes has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,553 INFO org.apache.cxf.endpoint.ServerImpl [main] Setting the server's publish address to be http://localhost:8081/core/finance/host/services/ws/transfertypes
+2019-07-10 13:56:29,558 INFO org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Creating Service {http://process.finance.core.doku.com/}WebserviceImplService from class com.doku.core.finance.services.Webservice
+2019-07-10 13:56:29,560 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Webservice.addWebservicePermission has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,561 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Webservice.createWebservices has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,562 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Webservice.deleteWebservicePermission has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,564 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Webservice.deleteWebservices has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,565 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Webservice.loadWebservices has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,567 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Webservice.loadWebservicesByGroup has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,568 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Webservice.loadWebservicesPermission has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,570 WARN org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean [main] Method com.doku.core.finance.services.Webservice.updateWebservices has a javax.xml.ws.Holder parameter which should not be annotated with the WebParam.Mode.IN
+2019-07-10 13:56:29,595 INFO org.apache.cxf.endpoint.ServerImpl [main] Setting the server's publish address to be http://localhost:8081/core/finance/host/services/ws/webservices
